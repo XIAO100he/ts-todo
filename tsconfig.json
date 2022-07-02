@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "sourceMap": true,
+    "target": "ES2015",
+    "lib": ["DOM", "ESNext"],
+    "module": "ES2015",
+    "esModuleInterop": true,
+    "strict": true, //全ての型チェック有効化
+    "forceConsistentCasingInFileNames": true, //ファイル名の大文字小文字区別
+    "noFallthroughCasesInSwitch": true, 
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true
+  } //tsコンパイル時の出力方法の変更や記述ルールの設定
+}
